@@ -9,7 +9,7 @@
     position: relative;
     width:100%;
     height: 100vh;
-    background: url(birds.jpg);
+    background: url(./images/birds.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -43,6 +43,7 @@ section .imgBox img{
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 600px;;
+    max-height: 80%;
 }
 
 section:nth-child(2n+1) .content{
@@ -65,8 +66,41 @@ section .content p{
     font-size: 18px;
 }
 
-.blank{
+/* group picture text scrolling area */
+.group-pic{
     position: relative;
     width:100%;
-    height: 100vh;
+    height: 50%;
+}
+
+div[id="about"]{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    color: white;
+    font-size: large;
+    scroll-snap-align: center;
+}
+
+.group-pic:hover > .text {
+    height: 150px;
+}
+
+/* end of group picture text scrolling area */
+
+.thumb {
+    background-color: #CCC;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 1px solid #000;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+#contain {
+    background-size: contain;
+    -moz-background-size: contain;
 }
