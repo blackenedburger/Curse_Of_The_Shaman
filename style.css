@@ -37,7 +37,7 @@ section{
 }
 
 #about > p{
-    color: white;
+    color: rgb(233, 230, 230);
     font-family: "Poppins", sans-serif;
     
 }
@@ -101,7 +101,7 @@ img{
 section:nth-child(2n+1){
     position: relative;
     height: auto;
-    background: #fafafa;
+    background: #242425;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -109,7 +109,7 @@ section:nth-child(2n+1){
 section:nth-child(2n+2){
     position: relative;
     height: auto;
-    background: #fafafa;
+    background: #242425;
     display: flex;
     flex-direction: row;
 }
@@ -148,7 +148,7 @@ section .content h2{
 }
 
 section .content p{
-    color: #242425;
+    color: rgb(233, 230, 230);
     font-size: 18px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
